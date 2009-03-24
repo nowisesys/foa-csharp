@@ -1,0 +1,48 @@
+﻿arr = [
+obj1 = (
+  name = adam
+  age = 34
+)
+(
+  name = bertil
+  age = 28
+)
+obj2 = (
+  caesar
+  age = 19
+)
+  obj3 = (
+david
+  age = 47
+)
+  obj4 = (
+    erik
+    age = 31
+  )
+obj5 = (
+name = fredrik
+age = 64
+)
+obj6=(
+name=gustav
+age=53
+)
+@file = (
+  name = cmd.exe
+  size = 238457
+)  
+]
+obj7=(
+name=gustav
+age=53
+)
+
+    obj8 = (
+david
+  age = 47
+)
+
+  obj9 = (
+    erik
+age = 31
+  )
