@@ -471,7 +471,6 @@ namespace FOA
                     data.Resize(size);
                 }
             }
-            return false;
         }
 
         /// <summary>
