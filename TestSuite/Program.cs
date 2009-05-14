@@ -164,12 +164,14 @@ namespace TestSuite
         /// </summary>
         private static void DecodeFileStream()
         {
-            FileStream stream = new FileStream("..\\..\\Data.txt", FileMode.Open);
-            FOA.Decoder decoder = new FOA.Decoder(stream);
-            FOA.Entity entity = new FOA.Entity();
-            while (decoder.Read(ref entity))
+            using (FileStream stream = new FileStream("..\\..\\Data.txt", FileMode.Open))
             {
-                PrintEntity(ref entity);
+                FOA.Decoder decoder = new FOA.Decoder(stream);
+                FOA.Entity entity = new FOA.Entity();
+                while (decoder.Read(ref entity))
+                {
+                    PrintEntity(ref entity);
+                }
             }
         }
 
